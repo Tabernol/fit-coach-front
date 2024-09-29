@@ -1,0 +1,32 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: rgba(40, 44, 52, 0.6);
+    color: white;
+    position: relative;  /* Ensure the parent container has relative positioning */
+}
+
+.menu-links a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: lawngreen;
+}
+
+.auth-links {
+    position: absolute;  /* Positioning it absolutely */
+    top: 3px;           /* Align to the top */
+    right: 50px;         /* Align to the right */
+    display: flex;
+}
+
+.auth-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: lawngreen;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
